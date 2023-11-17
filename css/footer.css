@@ -110,9 +110,10 @@
 
     }
 }
+
 @media screen and (max-width: 425px) {
     flex-direction: row;
-    }
+}
 
 
 @media (min-width: 1024px) {
@@ -137,7 +138,7 @@
     font-size: 1.9rem;
     text-decoration: none;
     color: white;
-  
+
 
 }
 
@@ -154,9 +155,9 @@
         margin: 0;
         font-size: 29px;
         text-decoration: none;
-        color: white; 
-        }
+        color: white;
     }
+}
 
 @media (min-width: 1024px) {
     .info__item {
