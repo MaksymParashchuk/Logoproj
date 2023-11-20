@@ -18,7 +18,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
+}
+
 body {
   font-family: Roboto, sans-serif;
   background-image: url(../img/background.jpg);
@@ -26,16 +27,33 @@ body {
   background-repeat: no-repeat;
   color: white;
 }
-p{
+
+p {
   margin: 0;
   padding: 0;
 }
-img{
+
+img {
   display: block;
   max-width: 100%;
 }
+
 .wrapper {
   max-width: 1200px;
   padding: 0px 15px;
   margin: auto;
 }
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+/* .fixed {
+  width: 100%;
+  position:fixed
+} */
