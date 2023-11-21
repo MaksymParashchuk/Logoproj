@@ -5,20 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist-portfolio</title>
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/main.logo.css">
-    <link rel="stylesheet" href="css/header.nav.css">
-    <script rel="stylesheet" href="./js/header.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <section data-include="header.nav.partial.html"></section>
-    
+    <link rel="stylesheet" href="css/main.collaboration.button.css">
+    <link rel="stylesheet" href="css/ourteam.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-include="header-nav.partial.html"></nav>
+                <section data-include="index.header-intro.partial.html"></section>
+            </div>
+        </div>
+    </header>
+
+    <section data-include="main.section.who-i-am.partial.html"></section>
+    <section data-include="main.section.hello-there.partial.html"></section>
+    <section data-include="main.section.collaboration.partial.html"></section>
+    <section data-include="main.section.inspiration.partial.html"></section>
+    <section data-include="main.section.map.partial.html"></section>
+    <section data-include="main.section.ourteam.partial.html"></section>
     <section data-include="main.section.logo.company.partial.html"></section>
     <footer data-include="footer.partial.html"></footer>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-    <!-- <script type="module" src="./js/index.js"></script> -->
+<script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+<script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
